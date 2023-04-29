@@ -29,7 +29,7 @@ const CardBasic = () => {
         <CardImgTop />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
-        <CardUser />
+        <CardUser bg={'/images/cards/background-user.png'} />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <CardWithCollapse />

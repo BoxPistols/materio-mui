@@ -2,9 +2,10 @@ import type { Meta, StoryObj } from '@storybook/react'
 import Carduser from './CardUser'
 
 const meta: Meta<typeof Carduser> = {
-  title: 'Card/Carduser',
+  title: 'Components/Card/Carduser',
   component: Carduser,
-  tags: ['autodocs'],
+
+//   tags: ['autodocs'],
   args: {}
 }
 
