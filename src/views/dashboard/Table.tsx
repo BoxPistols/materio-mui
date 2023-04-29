@@ -147,7 +147,8 @@ const DashboardTable = () => {
                     sx={{
                       height: 24,
                       fontSize: '0.75rem',
-                      textTransform: 'capitalize',
+
+                      // textTransform: 'capitalize',
                       '& .MuiChip-label': { fontWeight: 500 }
                     }}
                   />

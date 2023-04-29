@@ -1,0 +1,52 @@
+const Logo = () => {
+  return (
+    <>
+      <svg width='30' height='30' viewBox='0 0 106 98' fill='none' xmlns='http://www.w3.org/2000/svg'>
+        <g filter='url(#filter0_d_1904_27388)'>
+          <path
+            d='M6 87L23.28 5.71997H57.712C63.0027 5.71997 67.6107 6.27464 71.536 7.38397C75.5467 8.40797 78.832 10.1573 81.392 12.632C84.0373 15.1066 86 18.3493 87.28 22.36C88.6453 26.3706 89.328 31.2773 89.328 37.08C89.328 43.3093 88.5173 49.4106 86.896 55.384C85.36 61.3573 82.7573 66.6906 79.088 71.384C75.4187 76.0773 70.5973 79.8746 64.624 82.776C58.736 85.592 51.44 87 42.736 87H6ZM41.072 78.04C43.888 78.04 46.3627 76.888 48.496 74.584C50.7147 72.1946 52.592 69.208 54.128 65.624C55.7493 61.9546 57.072 57.944 58.096 53.592C59.2053 49.1546 60.0587 44.888 60.656 40.792C61.3387 36.696 61.808 33.0266 62.064 29.784C62.4053 26.5413 62.576 24.2373 62.576 22.872C62.576 20.2266 62.0213 18.1786 60.912 16.728C59.888 15.192 58.0533 14.424 55.408 14.424H49.264L35.568 78.04H41.072Z'
+            fill='url(#paint0_linear_1904_27388)'
+          />
+        </g>
+        <defs>
+          <filter
+            id='filter0_d_1904_27388'
+            x='0'
+            y='0.719971'
+            width='99.328'
+            height='97.28'
+            filterUnits='userSpaceOnUse'
+            colorInterpolationFilters='sRGB'
+          >
+            <feFlood floodOpacity='0' result='BackgroundImageFix' />
+            <feColorMatrix
+              in='SourceAlpha'
+              type='matrix'
+              values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+              result='hardAlpha'
+            />
+            <feOffset dx='2' dy='3' />
+            <feGaussianBlur stdDeviation='4' />
+            <feComposite in2='hardAlpha' operator='out' />
+            <feColorMatrix type='matrix' values='0 0 0 0 0.376471 0 0 0 0 0.490196 0 0 0 0 0.545098 0 0 0 0.31 0' />
+            <feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_1904_27388' />
+            <feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_1904_27388' result='shape' />
+          </filter>
+          <linearGradient
+            id='paint0_linear_1904_27388'
+            x1='23.5'
+            y1='2'
+            x2='71.5'
+            y2='80'
+            gradientUnits='userSpaceOnUse'
+          >
+            <stop stopColor='#86BCEA' />
+            <stop offset='1' stopColor='#5A9FDB' />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  )
+}
+
+export default Logo
