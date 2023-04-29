@@ -14,7 +14,7 @@ import VerticalLayout from 'src/@core/layouts/VerticalLayout'
 import VerticalNavItems from 'src/navigation/vertical'
 
 // ** Component Import
-import UpgradeToProButton from './components/UpgradeToProButton'
+// import UpgradeToProButton from './components/Del_UpgradeToProButton'
 import VerticalAppBarContent from './components/vertical/AppBarContent'
 
 // ** Hook Import
@@ -39,17 +39,17 @@ const UserLayout = ({ children }: Props) => {
   const hidden = useMediaQuery((theme: Theme) => theme.breakpoints.down('lg'))
 
   const UpgradeToProImg = () => {
-    return (
-      <Box sx={{ mx: 'auto' }}>
-        <a
-          target='_blank'
-          rel='noreferrer'
-          href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
-        >
-          <img width={230} alt='upgrade to premium' src={`/images/misc/upgrade-banner-${settings.mode}.png`} />
-        </a>
-      </Box>
-    )
+    // return (
+    //   <Box sx={{ mx: 'auto' }}>
+    //     <a
+    //       target='_blank'
+    //       rel='noreferrer'
+    //       href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+    //     >
+    //       <img width={230} alt='upgrade to premium' src={`/images/misc/upgrade-banner-${settings.mode}.png`} />
+    //     </a>
+    //   </Box>
+    // )
   }
 
   return (
@@ -71,7 +71,7 @@ const UserLayout = ({ children }: Props) => {
       )}
     >
       {children}
-      <UpgradeToProButton />
+      {/* <UpgradeToProButton /> */}
     </VerticalLayout>
   )
 }
