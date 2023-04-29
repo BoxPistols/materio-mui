@@ -21,32 +21,6 @@ const navigation = (): VerticalNavItemsType => {
       path: '/'
     },
     {
-      title: 'Account Settings',
-      icon: AccountCogOutline,
-      path: '/account-settings'
-    },
-    {
-      sectionTitle: 'Pages'
-    },
-    {
-      title: 'Login',
-      icon: Login,
-      path: '/pages/login',
-      openInNewTab: true
-    },
-    {
-      title: 'Register',
-      icon: AccountPlusOutline,
-      path: '/pages/register',
-      openInNewTab: true
-    },
-    {
-      title: 'Error',
-      icon: AlertCircleOutline,
-      path: '/pages/error',
-      openInNewTab: true
-    },
-    {
       sectionTitle: 'User Interface'
     },
     {
@@ -73,6 +47,35 @@ const navigation = (): VerticalNavItemsType => {
       icon: CubeOutline,
       title: 'Form Layouts',
       path: '/form-layouts'
+    },
+    {
+      sectionTitle: 'Pages'
+    },
+    {
+      title: 'Login',
+      icon: Login,
+      path: '/pages/login',
+      openInNewTab: true
+    },
+    {
+      title: 'Register',
+      icon: AccountPlusOutline,
+      path: '/pages/register',
+      openInNewTab: true
+    },
+    {
+      title: 'Error',
+      icon: AlertCircleOutline,
+      path: '/pages/error',
+      openInNewTab: true
+    },
+    {
+      sectionTitle: 'Settings'
+    },
+    {
+      title: 'Account Settings',
+      icon: AccountCogOutline,
+      path: '/account-settings'
     }
   ]
 }

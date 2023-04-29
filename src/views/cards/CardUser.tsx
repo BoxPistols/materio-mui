@@ -8,10 +8,15 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import AvatarGroup from '@mui/material/AvatarGroup'
 
-const CardUser = () => {
+type Props = {
+  bg: string
+}
+
+const CardUser = ({ bg = '/images/cards/background-user.png' }: Props) => {
   return (
     <Card sx={{ position: 'relative' }}>
-      <CardMedia sx={{ height: '12.625rem' }} image='/images/cards/background-user.png' />
+      {/* <CardMedia sx={{ height: '12.625rem' }} image='/images/cards/background-user.png' /> */}
+      <CardMedia sx={{ height: '12.625rem' }} image={bg} />
       <Avatar
         alt='Robert Meyer'
         src='/images/avatars/1.png'
