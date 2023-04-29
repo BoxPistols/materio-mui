@@ -10,7 +10,7 @@ const defaultSettings = {
 export const globalTypes = {
   mode: {
     name: 'Mode',
-    description: 'Light or dark mode',
+    description: 'Global theme mode',
     defaultValue: 'light',
     toolbar: {
       icon: 'circlehollow',
@@ -18,18 +18,6 @@ export const globalTypes = {
     }
   }
 }
-
-// export const decorators = [
-//   (Story, context) => {
-//     const mode = context.globals.mode;
-//     const settings = { mode };
-//     return (
-//       <ThemeComponent settings={settings}>
-//         <Story />
-//       </ThemeComponent>
-//     );
-//   },
-// ];
 
 const preview: Preview = {
   parameters: {
@@ -56,11 +44,6 @@ const preview: Preview = {
         </ThemeComponent>
       )
     }
-    // (Story) => (
-    //   <ThemeComponent settings={defaultSettings} >
-    //     <Story />
-    //   </ThemeComponent>
-    // ),
   ]
 }
 

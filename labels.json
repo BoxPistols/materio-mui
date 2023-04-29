@@ -1,0 +1,63 @@
+[
+    {
+      "name": "BackEnd",
+      "description": "バックエンド課題",
+      "color": "#9F28C3"
+    },
+    {
+      "name": "BFF",
+      "description": "Backend for FrontEnd",
+      "color": "#bfdadc"
+    },
+    {
+      "name": "bug",
+      "description": "バグ、不具合の対応",
+      "color": "#d73a4a"
+    },
+    {
+      "name": "CSS",
+      "description": "Ul-Design CSS設計UIデザイン自体の課題",
+      "color": "#e4e669"
+    },
+    {
+      "name": "docs",
+      "description": "ドキュメント系の追加、更新",
+      "color": "#0075ca"
+    },
+    {
+      "name": "Draft",
+      "description": "進行中",
+      "color": "#cfd3d7"
+    },
+    {
+      "name": "Front",
+      "description": "フロントエンド自体の課題=BFF課題/U|課題は含まない",
+      "color": "#008672"
+    },
+    {
+      "name": "Layout",
+      "description": "UIレイアウト構造がメインのU課題",
+      "color": "#EE0E52"
+    },
+    {
+      "name": "MUI",
+      "description": "MUI自体が主題の課題。MUIの組み込み、MUIの拡張",
+      "color": "#0052CC"
+    },
+    {
+      "name": "package",
+      "description": "パッケージの追加、選定検証、変更、アップデート",
+      "color": "#16C9F5"
+    },
+    {
+      "name": "UI Test",
+      "description": "U|検証、デザイン確定はしていない状態で仮Uの設計/実装",
+      "color": "#7057ff"
+    },
+    {
+      "name": "UX Design",
+      "description": "非機能なUIUX課題、ユーザビリティ、アクセシビリティ対応",
+      "color": "#d876e3"
+    }
+  ]
+  
