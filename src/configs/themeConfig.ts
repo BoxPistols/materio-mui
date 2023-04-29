@@ -17,9 +17,14 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   // ** Layout Configs
+<<<<<<< HEAD
+  templateName: 'Material DesignOps' /* App Name */,
+  mode: 'light' /* light | dark */,
+=======
   // Logo
   templateName: 'Material DesignOps' /* App Name */,
   mode: 'dark' /* light | dark */,
+>>>>>>> 1860d9d166e5fa42c186508fad4c64dc55616b32
   contentWidth: 'boxed' /* full | boxed */,
 
   // ** Routing Configs
