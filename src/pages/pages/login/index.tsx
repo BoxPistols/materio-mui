@@ -19,7 +19,10 @@ import {
   FormControl,
   OutlinedInput
 } from '@mui/material'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1860d9d166e5fa42c186508fad4c64dc55616b32
 import { styled, useTheme } from '@mui/material/styles'
 import MuiCard, { CardProps } from '@mui/material/Card'
 import InputAdornment from '@mui/material/InputAdornment'
@@ -41,8 +44,11 @@ import BlankLayout from 'src/@core/layouts/BlankLayout'
 
 // ** Demo Imports
 import Logo from 'src/@core/utils/logo'
+<<<<<<< HEAD
 
 import FooterIllustrationsV1 from 'src/views/pages/auth/FooterIllustration'
+=======
+>>>>>>> 1860d9d166e5fa42c186508fad4c64dc55616b32
 
 interface State {
   password: string
@@ -95,14 +101,21 @@ const LoginPage = () => {
       <Card sx={{ zIndex: 1 }}>
         <CardContent sx={{ padding: theme => `${theme.spacing(12, 9, 7)} !important` }}>
           <Box sx={{ mb: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+<<<<<<< HEAD
             <Logo width={42} height={42} />
+=======
+            <Logo />
+
+            {/* Logo */}
+>>>>>>> 1860d9d166e5fa42c186508fad4c64dc55616b32
             <Typography
               variant='h6'
               sx={{
                 ml: 3,
                 lineHeight: 1,
                 fontWeight: 600,
-                textTransform: 'uppercase',
+
+                // textTransform: 'uppercase',
                 fontSize: '1.5rem !important'
               }}
             >
@@ -194,7 +207,6 @@ const LoginPage = () => {
           </form>
         </CardContent>
       </Card>
-      <FooterIllustrationsV1 />
     </Box>
   )
 }

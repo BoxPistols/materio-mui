@@ -35,8 +35,6 @@ import themeConfig from 'src/configs/themeConfig'
 // ** Layout Import
 import BlankLayout from 'src/@core/layouts/BlankLayout'
 
-// ** Demo Imports
-import FooterIllustrationsV1 from 'src/views/pages/auth/FooterIllustration'
 
 interface State {
   password: string
@@ -153,7 +151,8 @@ const RegisterPage = () => {
                 ml: 3,
                 lineHeight: 1,
                 fontWeight: 600,
-                textTransform: 'uppercase',
+
+                // textTransform: 'uppercase',
                 fontSize: '1.5rem !important'
               }}
             >
@@ -245,7 +244,6 @@ const RegisterPage = () => {
           </form>
         </CardContent>
       </Card>
-      <FooterIllustrationsV1 />
     </Box>
   )
 }

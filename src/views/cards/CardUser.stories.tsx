@@ -5,7 +5,7 @@ const meta: Meta<typeof Carduser> = {
   title: 'Components/Card/Carduser',
   component: Carduser,
 
-//   tags: ['autodocs'],
+  //   tags: ['autodocs'],
   args: {}
 }
 
