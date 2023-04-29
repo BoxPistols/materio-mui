@@ -33,7 +33,8 @@ const List = (theme: Theme) => {
       styleOverrides: {
         root: {
           fontWeight: 600,
-          textTransform: 'uppercase',
+
+          // textTransform: 'uppercase',
           color: theme.palette.text.primary
         }
       }

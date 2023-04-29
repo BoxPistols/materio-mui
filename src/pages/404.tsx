@@ -13,9 +13,6 @@ import Box, { BoxProps } from '@mui/material/Box'
 // ** Layout Import
 import BlankLayout from 'src/@core/layouts/BlankLayout'
 
-// ** Demo Imports
-import FooterIllustrations from 'src/views/pages/misc/FooterIllustrations'
-
 // ** Styled Components
 const BoxWrapper = styled(Box)<BoxProps>(({ theme }) => ({
   [theme.breakpoints.down('md')]: {
@@ -64,7 +61,6 @@ const Error404 = () => {
           </Button>
         </Link>
       </Box>
-      <FooterIllustrations image={<TreeIllustration alt='tree' src='/images/pages/tree.png' />} />
     </Box>
   )
 }
