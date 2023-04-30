@@ -21,7 +21,7 @@ const navigation = (): VerticalNavItemsType => {
       path: '/'
     },
     {
-      sectionTitle: 'User Interface'
+      sectionTitle: 'Design Token'
     },
     {
       title: 'Typography',
@@ -32,6 +32,9 @@ const navigation = (): VerticalNavItemsType => {
       title: 'Icons',
       path: '/icons',
       icon: GoogleCirclesExtended
+    },
+    {
+      sectionTitle: 'Components'
     },
     {
       title: 'Cards',
