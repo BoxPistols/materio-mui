@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import TableBasic from './'
 
 const meta: Meta<typeof TableBasic> = {
-  title: 'Components/Table/TableBasic',
+  title: 'Catalog/Table',
   component: TableBasic,
   tags: ['autodocs'],
   args: {}
